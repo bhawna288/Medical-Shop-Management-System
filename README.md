@@ -1,4 +1,5 @@
 #Movie-Recommender-System
+
 Building A Recommender System on User-User Collaborative Filtering We can use many similarity models for this purpose like the Pearson, Cosine etc and we will be using to the Eucledian Distance model for this one. This is the popular MovieLens dataset.It has 100,000 ratings from 1000 users on 1700 movies. Released 4/1998.It has multiple CSV files zipped into a folder. We shall be working with these files
 
 u.data: -- The full u data set, 100000 ratings by 943 users on 1682 items. Each user has rated at least 20 movies. Users and items are numbered consecutively from 1. The data is randomly ordered. This is a tab separated list of user id | item id | rating | timestamp. The time stamps are unix seconds since 1/1/1970 UTC
@@ -6,6 +7,7 @@ u.item -- Information about the items (movies); this is a tab separated list of 
 u.user -- Demographic information about the users; this is a tab separated list of user id | age | gender | occupation | zip code The user ids are the ones used in the u.data data set.
 
 #Requirements
+
 1.Numpy
 2.Pandas
 3.Scipy
